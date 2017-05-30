@@ -1,2 +1,4 @@
 What happens when you initialize a repository? Why do you need to do it? 
 	When you initialize a new repository, the system creates a hidden .git directory in the folder where repository initialized. You need to do initialize to start storing history for the files.
+How can you use the staging area to make sure you have one commit per logical change?
+	You can make sure you have only one commit per logical change if only one file in staging area, or only related files in staging area.
