@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 	When you initialize a new repository, the system creates a hidden .git directory in the folder where repository initialized. You need to do initialize to start storing history for the files.
 How can you use the staging area to make sure you have one commit per logical change?
 	You can make sure you have only one commit per logical change if only one file in staging area, or only related files in staging area.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches would help whenever you want to keep something out of the main stream, when you're still toying with it and want to get it up to speed befor merging it with other peoples' code. Branches keep changes localized until they're ready for production. *Also help to switch around between tasks. Can start a new branch whenever you start a new task.
+How do the diagrams help you visualize the branch structure?
+	The diagrams help show what kinds of changes have been made to the project and generally the workflow of the project.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When you merge two branches, you combine them, saving all the relevant changes that have been made. The merge is represented in the diagram as two paths coming together because the final result is a single branch that contains both paths (code bases) within it.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually
+	Always doing merges manually can be more accurate/give more control, but it is also more time-consuming. Automatic merging is much faster, but sloppier and can lead to weird errors if done wrong.
